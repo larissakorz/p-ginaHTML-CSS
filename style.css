@@ -1,0 +1,288 @@
+/* Padronizar tags HTML */
+*{
+  font: 14px sans-serif;
+  margin: 0px;
+  padding: 0px;  
+}
+
+body{
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.topoInicio{
+  background-image: url("imagens/topos/principal.jpg");
+}
+
+.topoSobre{
+  background-image: url("imagens/topos/sobre.jpg");
+}
+
+.topoContato{
+  background-image: url("imagens/topos/contato.jpg");
+}
+header{
+  background-color: white;
+  overflow: auto;
+}
+
+header img{
+  margin: 10px;
+  float: left;
+}
+
+header nav{
+  float: right;
+}
+
+header a{
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 30px;
+  color:black;
+  text-decoration: none;
+}
+
+header a:hover{
+  color:blue
+}
+
+.banner{
+  height: 830px;
+}
+
+.banner h1{
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  padding-top: 250px;
+  line-height: 80px;
+}
+
+.textoBanner{
+  color:tomato;
+  font-size: 60px;
+}
+
+.pratos{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.pratos h1{
+  font-size: 30px;
+  color:rgb(180, 68, 48);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 26px;
+}
+
+.pratos div{
+  display: inline-block;
+  margin-left: 25px;
+  margin-bottom: 35px;
+  border: solid 1px rgb(20, 20, 20);
+}
+
+.pratos img{
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 10px gray;
+}
+
+.pratos p{
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.sobre{
+  background-image: url("imagens/sessoes/2.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 452px;
+  margin-top: 30px;
+}
+
+.sobre h1{
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  padding-top: 55px;
+  line-height: 100px;
+}
+
+.sobre p{
+  color:white;
+  width: 800px;
+  margin: 30px auto;
+  text-align: justify;
+  line-height: 24px;
+  text-indent: 30px;
+}
+
+.apresentacao{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.apresentacao img{
+  width: 300px;
+  float: left;
+  margin-top: 50px;
+}
+
+.apresentacao div{
+  width: 650px;
+  float: left;
+  margin-left: 50px;
+}
+
+.apresentacao h1{
+  font-size: 35px;
+  color:rgb(180, 68, 48);
+  padding-top: 60px;
+  line-height: 85px;
+}
+
+.apresentacao p{
+  margin-top: 30px;
+  font-size: 16px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.reserva{
+  background-image: url("imagens/sessoes/3.jpg");
+  height: 452px;
+}
+
+.reserva h1{
+  text-align: center;
+  font-size: 60px;
+  color: rgb(245, 242, 233);
+  padding-top: 50px;
+}
+
+.reserva form{
+  width: 700px;
+  margin: 10px auto;
+  background-color: rgba(204, 200, 200, 0.9);
+  text-align: center;
+}
+
+.reserva input{
+  width: 675px;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+.reserva button{
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(219, 135, 55);
+  border: solid 1px rgb(235, 144, 26);
+  color: white;
+  margin-bottom: 10px;
+}
+
+footer p{
+  text-align: center;
+  margin: 15px;
+  font-size: 12px;
+  color:rgb(202, 91, 17);
+}
+
+.bannerSecundario{
+  height: 410px;
+}
+
+.bannerSecundario h1{
+  text-align: center;
+  font-size: 60px;
+  color: rgb(245, 242, 233);
+  padding-top: 140px;
+  line-height: 85px;
+  text-shadow: 0px 0px 10px black;
+}
+
+.contato{
+  width: 1200px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.mapa{
+  float: left;
+}
+
+.contato form{
+  float: right;
+  background-color:rgb(194, 192, 192);
+  border: solid 1px rgb(145, 142, 142);
+  padding: 10px;
+  width: 600px;
+}
+
+.contato input{
+  width: 570px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.contato select{
+  width: 586px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contato textarea{
+  width: 565px;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contato button{
+  width: 150px;
+  padding: 10px;
+  margin-left: 232px;
+}
+
+.contato .mapa{
+  width: 550px;
+  height: 375px;
+  border: solid 1px rgb(155, 153, 153);
+  background-color: burlywood;
+}
+
+.imagem{
+  width: 1000px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.imagem div{
+  width: 450px;
+  float: left;
+  margin-left: 20px;
+}
+
+.imagem img{
+  float: left;
+  width: 150px;
+}
+
+.imagem p{
+  margin-top:20px;
+  margin-right: 20px;
+}
+
+.clientes h1{
+  text-align: center;
+  padding: 50px;
+  color: tomato;
+  font-size: 45px;
+}

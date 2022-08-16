@@ -1,0 +1,73 @@
+/* Padronizar tags HTML */
+*{
+  font: 14px sans-serif;
+  margin: 0px;
+  padding: 0px;  
+}
+
+.topoInicio{
+  background-image: url("korz/51139613251_ea3c3cd205_k.jpg");
+}
+
+body{
+  background-repeat: no-repeat;
+  background-position: top centre;
+}
+
+header{
+  background-color: white;
+}
+
+header img{
+  width: 60px;
+  margin: 7px;
+}
+
+header nav{
+  float: right;
+}
+
+header a{
+  display: inline-block;
+  margin-top: 35px;
+  margin-right: 35px;
+}
+
+header a:hover{
+  color: red;
+}
+
+.banner{
+  height: 850px;
+}
+
+.banner h1{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 450px;
+}
+
+.fotos{
+  width: 1200px;
+}
+
+.fotos h1{
+  font-size: 30px;
+  color:rgb(180, 68, 48);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 26px;
+  text-align: center;
+}
+
+.fotos{
+  display: inline-block;
+  margin-left: 25px;
+  margin-bottom: 35px;
+  border: solid 1px rgb(20, 20, 20);
+}
+
+.fotos img{
+  
+}
